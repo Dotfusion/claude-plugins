@@ -1,0 +1,14 @@
+{
+  "name": "dotfusion-content-equity",
+  "displayName": "Content Equity Pre-Audit",
+  "version": "1.0.1",
+  "description": "Score your site's pages and get a keep, consolidate, rewrite, redirect, retire or create verdict for each, with the rule behind it. Works with or without GA4 and Search Console exports.",
+  "author": {
+    "name": "Dotfusion",
+    "url": "https://dotfusion.com"
+  },
+  "homepage": "https://dotfusion.com",
+  "repository": "https://github.com/dotfusion/claude-plugins",
+  "license": "MIT",
+  "keywords": ["content audit", "website migration", "headless cms", "seo", "aeo", "redirect map", "content inventory"]
+}

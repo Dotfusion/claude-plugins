@@ -1,0 +1,17 @@
+{
+  "name": "dotfusion",
+  "owner": {
+    "name": "Dotfusion",
+    "url": "https://dotfusion.com"
+  },
+  "metadata": {
+    "description": "Plugins from Dotfusion: content operations, AEO and composable platform migration tools."
+  },
+  "plugins": [
+    {
+      "name": "dotfusion-content-equity",
+      "source": "./content-equity-pre-audit",
+      "description": "Score your site's pages and get a keep, consolidate, rewrite, redirect, retire or create verdict for each, with the rule behind it. Works with or without GA4 and Search Console exports."
+    }
+  ]
+}
