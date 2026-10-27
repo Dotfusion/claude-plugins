@@ -15,7 +15,7 @@ Name your site, or paste your Google Analytics, Search Console or crawl export, 
 | Retire | Page dies, nothing replaces it |
 | Create | Net-new content the site needs and does not have |
 
-Every row shows the rule that fired and whether its scores were measured, proxied or missing. You get a verdict card, the scored inventory, a redirect map, a methodology note you can forward, and a review pile for the calls that need a human.
+Every row shows the rule that fired and whether its scores were measured, proxied or missing. You get a verdict card, the scored inventory, a content model preview (candidate models for the page types that repeat, with the fields they share), a redirect map, a methodology note you can forward, and a review pile for the calls that need a human.
 
 Four ways to run it:
 
@@ -38,7 +38,7 @@ Then ask, for example:
 - "Here is our Search Console pages export for the last 16 months. Which of these 6,000 URLs are safe to cut?"
 - "These are our 12 property sites. Which pages are duplicated across all of them?"
 
-The skill confirms scope in three lines before it starts, then works through the sample or the export.
+The skill confirms scope in three lines before it starts, then works through the sample or the export. A complete example run on dotfusion.com is in the repository's [examples folder](https://github.com/Dotfusion/claude-plugins/tree/main/examples).
 
 ## What it does not do
 

@@ -1,7 +1,7 @@
 {
   "name": "dotfusion-content-equity",
   "displayName": "Content Equity Pre-Audit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Score your site's pages and get a keep, consolidate, rewrite, redirect, retire or create verdict for each, with the rule behind it. Works with or without GA4 and Search Console exports.",
   "author": {
     "name": "Dotfusion",
