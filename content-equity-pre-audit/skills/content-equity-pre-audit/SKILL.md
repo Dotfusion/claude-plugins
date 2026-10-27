@@ -5,7 +5,7 @@ description: Pre-audit a named website's content ahead of a migration, replatfor
 
 # Content Equity Pre-Audit
 
-Content equity is the search, AI-answer and visit value a page has already earned. This skill tells the user which pages carry it before they move or cut them, and gives every URL in the sample one verb with the rule behind it.
+The purpose is to accelerate a large scale content migration by telling the content team what to do with each page before platform work starts. Content equity is the search, AI-answer and visit value a page has already earned. This skill scores it, gives every URL in the sample one verb with the rule behind it, and turns the verbs into the two artifacts a migration team needs first: the redirect map and the work queue.
 
 Two principles govern every run. **Spec before work**: agree scope before touching a page. **Every number traces to something the user can re-run**: a number you cannot see is "no data", never an estimate, and every row shows whether its scores were measured, proxied or missing.
 
@@ -77,11 +77,13 @@ In this order, in the conversation. Keep the inline table to 40 rows; offer the 
 
 **5. Redirect map.** Every Consolidate and Redirect row as source URL, destination URL, one-line reason. This is the artifact the migration team needs first.
 
-**6. Methodology note.** Six to ten sentences the user can paste into an email: what was sampled or exported, the window, how each column was scored and which were proxies, what "no data" means, the cluster test, the six verbs and rule order, and the limits below. Written so it reads as neutral and vendor-agnostic; a user preparing an RFP can hand it to any bidder.
+**6. Work queue.** The verbs regrouped by who acts on them. Writers: every Rewrite and Create row, with the source question or gap for each Create. Migration team: every Consolidate and Redirect row (the redirect map) and every Keep row as the migrate-as-is list. Decision owner: every Review row and every Retire row awaiting the referrer check. Give counts per group so the team can size the work.
 
-**7. Review pile.** Every rule 8 row with the question a human must answer.
+**7. Methodology note.** Six to ten sentences the user can paste into an email: what was sampled or exported, the window, how each column was scored and which were proxies, what "no data" means, the cluster test, the six verbs and rule order, and the limits below. Written so it reads as neutral and vendor-agnostic; a user preparing an RFP can hand it to any bidder.
 
-**8. Re-run block.** The AEO questions verbatim with dates, and the sample URL list, so anyone can repeat the run.
+**8. Review pile.** Every rule 8 row with the question a human must answer.
+
+**9. Re-run block.** The AEO questions verbatim with dates, and the sample URL list, so anyone can repeat the run.
 
 ## Limits to state in every methodology note
 

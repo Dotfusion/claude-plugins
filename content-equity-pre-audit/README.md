@@ -1,6 +1,6 @@
 # Content Equity Pre-Audit
 
-Content equity is the search, AI-answer and visit value a page has already earned. This plugin tells you which pages carry it before you move or cut them, and gives every page one verdict with the rule behind it.
+A large scale content migration stalls on one question: what do we do with each page? This plugin answers it for your content team before the platform work starts. It scores every page on the content equity it has already earned (search, AI answers, visits) and gives each one a verb with the rule behind it, plus the redirect map and the work queue that fall out of those verbs.
 
 ## What it does
 
@@ -15,7 +15,7 @@ Name your site, or paste your Google Analytics, Search Console or crawl export, 
 | Retire | Page dies, nothing replaces it |
 | Create | Net-new content the site needs and does not have |
 
-Every row shows the rule that fired and whether its scores were measured, proxied or missing. You get a verdict card, the scored inventory, a content model preview (candidate models for the page types that repeat, with the fields they share), a redirect map, a methodology note you can forward, and a review pile for the calls that need a human.
+Every row shows the rule that fired and whether its scores were measured, proxied or missing. You get a verdict card, the scored inventory, a content model preview (candidate models for the page types that repeat, with the fields they share), a redirect map, a work queue grouped by who acts on it (writers, the migration team, the decision owner), a methodology note you can forward, and a review pile for the calls that need a human.
 
 Four ways to run it:
 

@@ -105,11 +105,19 @@ A content model is derived from the full inventory and the owner's requirements,
 
 Redirect rows (rule 6): none, because no Measured SEO or Visits data exists to qualify a page.
 
-## 6. Methodology note
+## 6. Work queue
+
+Writers (2 rows): Rewrite /our-work/case-study-premier-caribbean-resort-company (about 160 words, thin) and /podcasts/beyond-the-cms-episode-26-agility-cms-world-class-canadian-cms (no transcript, placeholder chapter timestamps). No Create rows: the AEO proxy produced no unanswered buyer question to cite.
+
+Migration team (21 rows): 1 Consolidate, /blogs/dotfusion-storyblok-the-value-why-dotfusion-storyblok-works onto /blogs/storyblok-dotfusion-new-tools-for-smarter-digital-experiences, carried in the redirect map; 0 Redirect; 20 Keep rows migrate as is, 3 of them firm and 17 provisional.
+
+Decision owner (7 rows): the review pile below, led by the four listing pages whose fetched entry counts did not match the sitemap. 0 Retire rows await a referrer check.
+
+## 7. Methodology note
 
 This pre-audit sampled 30 of 177 URLs listed in dotfusion.com/sitemap.xml on 2026-10-27, with no analytics or search exports and therefore no measurement window. The sample was the homepage, the pages linked from the navigation (the footer Quick Links, because no header menu was returned by the fetch), then the remaining slots spread across sitemap sections in proportion to section size, taking the first URLs of each section in sitemap order. Each page was fetched once and scored on four separate 1 to 5 scales where 1 means keep first, and the scales are never combined. SEO is a proxy from observable page signals: 3 for a substantive page, 4 for a thin or duplicate page (under 300 words), 5 for a placeholder (under 100 words). AEO is a proxy from five buyer questions run through Claude web search in standard mode on 2026-10-27, scored 3 where competitors appeared and the site did not, and left as no data for pages that no question covered, except for three rows scored Measured from a logged out ChatGPT answer that the site owner pasted, dated 2026-10-27, which listed the site first for one question; that is one question on one engine, and those three rows are scored 1 and carry firm verbs. Visits is no data on every row because it is measured only from a GA4 landing page export, and Subjective is left blank for the owner's team. "No data" means the value was not observable and was not estimated. Pages are grouped into a cluster only when their titles or H1s share the same primary topic and the same content type. Every page receives one of six verbs (keep, consolidate, rewrite, redirect, retire, create) by rules applied in order, and the rule number is shown on each row; verbs resting on proxy scores are provisional, verbs resting on a measured score are firm, and rows that no rule resolves go to a review pile. Limits: this run did not check referrer and campaign data before any Retire call, did not run a query to page cannibalization pass from the full Search Console matrix, did not check GA4 contamination, bot exclusions or any traffic cliff in the scoring window, and did not include the owner's Subjective round and a review session that logs every override, so every verb is a recommendation until the owner approves it. The method is published under the MIT license by Dotfusion.
 
-## 7. Review pile
+## 8. Review pile
 
 | URL | Question a human must answer |
 |---|---|
@@ -121,7 +129,7 @@ This pre-audit sampled 30 of 177 URLs listed in dotfusion.com/sitemap.xml on 202
 | /insights/why-gender-pronouns-matter | Thin page (about 270 words). Is this a topic the site needs, and is it a standalone article or part of the JEDI policy page? |
 | /blogs/toronto-digital-agency-full-service-digital-solutions-in-toronto | Low confidence on type: article or service page. A sitemap URL with a similar slug exists under /insights/ and was not fetched, so no duplicate is claimed. Decide type, then check the sibling page. |
 
-## 8. Rerun block
+## 9. Rerun block
 
 AEO questions, run through Claude web search, standard mode, on 2026-10-27 (US only index; the site did not appear in results for any of the five; results by topic):
 

@@ -11,7 +11,7 @@
     {
       "name": "dotfusion-content-equity",
       "source": "./content-equity-pre-audit",
-      "description": "Score your site's pages and get a keep, consolidate, rewrite, redirect, retire or create verdict for each, with the rule behind it. Works with or without GA4 and Search Console exports."
+      "description": "Accelerate a large scale content migration. Scores every page on your site and gives your content team a verb for each (keep, consolidate, rewrite, redirect, retire or create), the rule behind it, a redirect map and a work queue. Works with or without GA4 and Search Console exports."
     }
   ]
 }
