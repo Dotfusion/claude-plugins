@@ -1,10 +1,10 @@
-# Content Equity Pre-Audit
+# Content Migration Audit
 
 A large scale content migration stalls on one question: what do we do with each page? This plugin answers it for your content team before the platform work starts. It scores every page on the content equity it has already earned (search, AI answers, visits) and gives each one a verb with the rule behind it, plus the redirect map and the work queue that fall out of those verbs.
 
 ## What it does
 
-Name your site, or paste your Google Analytics, Search Console or crawl export, and the pre-audit scores each page on four independent 1 to 5 scales (search equity, AI answer presence, visits, and a column your team fills) and assigns one of six verbs by rules you can repeat in a meeting:
+Name your site, or paste your Google Analytics, Search Console or crawl export, and the audit scores each page on four independent 1 to 5 scales (search equity, AI answer presence, visits, and a column your team fills) and assigns one of six verbs by rules you can repeat in a meeting:
 
 | Verb | Meaning |
 | --- | --- |
@@ -34,7 +34,7 @@ Install from the Claude directory (Customize > Plugins > Discover), or in Claude
 
 Then ask, for example:
 
-- "Run a content equity pre-audit on example.com."
+- "Run a content migration audit on example.com."
 - "Here is our Search Console pages export for the last 16 months. Which of these 6,000 URLs are safe to cut?"
 - "These are our 12 property sites. Which pages are duplicated across all of them?"
 

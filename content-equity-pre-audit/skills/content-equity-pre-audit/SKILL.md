@@ -1,9 +1,9 @@
 ---
 name: content-equity-pre-audit
-description: Pre-audit a named website's content ahead of a migration, replatform, consolidation or content cut. Scores a sample of URLs (or every URL in a pasted GA4, Search Console or crawl export) on four independent scales and assigns each page one of six verbs (keep, consolidate, rewrite, redirect, retire, create) by published rules, with the rule and the evidence shown per row. Use when the user names a site, domain list or URL list and asks which pages to keep, cut, merge or redirect, or asks for a content audit or inventory before a rebuild. Do not use for general migration planning, SEO advice, or reviewing a single page.
+description: Content Migration Audit. Audit a named website's content ahead of a migration, replatform, consolidation or content cut. Scores a sample of URLs (or every URL in a pasted GA4, Search Console or crawl export) on four independent scales and assigns each page one of six verbs (keep, consolidate, rewrite, redirect, retire, create) by published rules, with the rule and the evidence shown per row. Use when the user names a site, domain list or URL list and asks which pages to keep, cut, merge or redirect, asks for a content migration audit, or asks for a content audit or inventory before a rebuild. Do not use for general migration planning, SEO advice, or reviewing a single page.
 ---
 
-# Content Equity Pre-Audit
+# Content Migration Audit
 
 The purpose is to accelerate a large scale content migration by telling the content team what to do with each page before platform work starts. Content equity is the search, AI-answer and visit value a page has already earned. This skill scores it, gives every URL in the sample one verb with the rule behind it, and turns the verbs into the two artifacts a migration team needs first: the redirect map and the work queue.
 
@@ -16,7 +16,7 @@ If the user's first message already names the site, the mode and any exports, re
 1. **Site or sites.** One domain, a list of domains (a portfolio of property or brand microsites), or a pasted URL list. Confirm the user owns or is authorized to audit these sites. If a sitemap or crawl later reveals another domain or subdomain, flag it and ask; never add it on your own.
 2. **Mode.** Pick the one the inputs allow:
    - **Export mode** when the user pastes a GA4 landing-page export, a Search Console pages export, or a crawl export (Screaming Frog or similar). Every URL in the export is scored; no cap. Fetch pages only for the review pile and for Keep or Consolidate candidates that need a look.
-   - **Sample mode** when there are no exports. Fetch and score a sample: 30 URLs by default, extended in batches of 30 on request. Choose the sample deterministically and say how: the homepage, every page linked from the main navigation (if the fetch shows no header menu, use the footer links and say so), then the remaining slots spread across sitemap sections (first path segment) in proportion to their size by largest remainder, taking the first URLs of each section in sitemap order. A site with no more than 35 URLs is sampled whole. Verbs in sample mode are **provisional** (labelled so in every output), because they rest on proxy scores. Say that a 30-page sample of a 4,000-page site is a pre-audit of the sample, not the site.
+   - **Sample mode** when there are no exports. Fetch and score a sample: 30 URLs by default, extended in batches of 30 on request. Choose the sample deterministically and say how: the homepage, every page linked from the main navigation (if the fetch shows no header menu, use the footer links and say so), then the remaining slots spread across sitemap sections (first path segment) in proportion to their size by largest remainder, taking the first URLs of each section in sitemap order. A site with no more than 35 URLs is sampled whole. Verbs in sample mode are **provisional** (labelled so in every output), because they rest on proxy scores. Say that a 30-page sample of a 4,000-page site is an audit of the sample, not the site.
    - **Portfolio mode** for a domain list. Sample 8 to 10 URLs per domain and add a per-domain rollup that surfaces shared-template pages repeated across properties.
 3. **Data sources present.** Before asking for exports, check the tools available in this session. If a Google Analytics, Search Console or Screaming Frog connector (MCP) is connected, use it: pull the landing-page report, the pages report and the crawl directly, state the property, date window and tool name in the output, and treat the result as Measured. If none is connected, ask for the exports. Say plainly what each missing source leaves as "no data" or as a proxy. Never ask the user to connect a tool mid-run; name it as an option for next time.
 
@@ -87,7 +87,7 @@ In this order, in the conversation. Keep the inline table to 40 rows; offer the 
 
 ## Limits to state in every methodology note
 
-These are the checks a pre-audit cannot make, and the reason a verb is a recommendation until the owner approves it:
+These are the checks a sampled or export-only audit cannot make, and the reason a verb is a recommendation until the owner approves it:
 
 - Referrer and campaign data before any Retire call; paid traffic often lands on pages that look dead in organic data.
 - A query-to-page cannibalization pass from the full Search Console matrix, which is what makes Consolidate calls precise.
